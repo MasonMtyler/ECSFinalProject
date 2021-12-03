@@ -1,11 +1,68 @@
 body{
-
+	margin: 5px;
+	background: url('https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Running/Articles/A+Goodbye+From+Cool+Running/illustration+of+types+of+runners-front.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
 }
-
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: green;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: lightgreen;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
 h1{
 	font-size:25px;
 	font-family: initial;
 	text-align: center;
-
 }
-
+p
+{
+	border-style: inset;
+	border-color: black;
+}
+img {
+	border: 5px groove green;
+}
+.specific{
+	padding: 5px;
+}
+.page-wrap{
+	display:  grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 50px 2fr auto;
+	height: 200px;
+	gap: 1rem;
+}
+.page-wrap > * {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background: white;
+}
+body{
+	margin: 0;
+	padding: 1rem;
+}
+main {
+	width: 1000px;
+	align-self: 80%;
+	margin-left: 180px;
+}
+header, main {
+	grid-column: 1 / -1;
+}
+header {
+	height: 45px;
+}
+}
